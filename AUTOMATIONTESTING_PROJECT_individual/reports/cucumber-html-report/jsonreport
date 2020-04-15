@@ -1,0 +1,346 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Register the website",
+        "description": "",
+        "id": "automationtesting-website;register-the-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16508177300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and enter the url",
+            "match": {
+              "location": "automation_register_stepdef.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 837471300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Register page is opened",
+            "match": {
+              "location": "automation_register_stepdef.register_page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 623365100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the \"madhu@gmail.com\" and \"madhu@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "madhu@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "madhu@123",
+                  "offset": 33
+                }
+              ],
+              "location": "automation_register_stepdef.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5377396500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the register button",
+            "match": {
+              "location": "automation_register_stepdef.click_the_register_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tc_01_register"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Validate the login fuctionality",
+        "description": "",
+        "id": "automationtesting-website;validate-the-login-fuctionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14952173300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Launch the browser and enter url",
+            "match": {
+              "location": "automation_login_stepdef.launch_the_browser_and_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1064656100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "opened the login page",
+            "match": {
+              "location": "automation_login_stepdef.opened_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1059371900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "automation_login_stepdef.enter_the_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6257891900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click the login button",
+            "match": {
+              "location": "automation_login_stepdef.click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@tc_02_login"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To register the demosite giving Invalid details",
+        "description": "",
+        "id": "automationtesting-website;to-register-the-demosite-giving-invalid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13865169400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user launch the browser and url",
+            "match": {
+              "location": "automation_invaliddetails_stepdef.the_user_launch_the_browser_and_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4347414300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "opens the Practice automation website and click_the Demo site button",
+            "match": {
+              "location": "automation_invaliddetails_stepdef.opens_the_Practice_automation_website_and_click_the_Demo_site_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 873839400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "enter invalid details",
+            "match": {
+              "location": "automation_invaliddetails_stepdef.enter_invalid_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1016899400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on submit button",
+            "match": {
+              "location": "automation_invaliddetails_stepdef.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@tc_03_Demosite_UserRegister"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Download the file in the demosite-Filedownload",
+        "description": "",
+        "id": "automationtesting-website;download-the-file-in-the-demosite-filedownload",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14674546800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Open url in the browser",
+            "match": {
+              "location": "automation_filedownload_stepdef.open_url_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3984879000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Automation site is opened",
+            "match": {
+              "location": "automation_filedownload_stepdef.automation_site_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 981302600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on more and click filedownload",
+            "match": {
+              "location": "automation_filedownload_stepdef.click_on_more_and_click_filedownload()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1685698700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "download the file",
+            "match": {
+              "location": "automation_filedownload_stepdef.download_the_file()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@tc_04_Demosite_filedownload"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Get the dynamic data in the demosite-DynamicData",
+        "description": "",
+        "id": "automationtesting-website;get-the-dynamic-data-in-the-demosite-dynamicdata",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12848487400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Open the url in the browser",
+            "match": {
+              "location": "automation_dynamicdata_stepdef.open_the_url_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3501863500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Automation site is opened and click demosite",
+            "match": {
+              "location": "automation_dynamicdata_stepdef.automation_site_is_opened_and_click_demosite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 942807300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on more and click dynamic data",
+            "match": {
+              "location": "automation_dynamicdata_stepdef.click_on_more_and_click_dynamic_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 871306400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on Dynamic data and get the data",
+            "match": {
+              "location": "automation_dynamicdata_stepdef.click_on_Dynamic_data_and_get_the_data()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@tc_05_Demosite_Dynamicdata"
+          }
+        ]
+      }
+    ],
+    "name": "Automationtesting Website",
+    "description": "",
+    "id": "automationtesting-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/testcase.feature"
+  }
+]
